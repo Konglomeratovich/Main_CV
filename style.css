@@ -59,5 +59,3 @@ a::after {
   border-bottom: 1px solid #dadada;
   width: 300px;
 }
-
-@import "{{ site.theme }}";
