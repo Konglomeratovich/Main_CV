@@ -61,3 +61,28 @@ img {
 .lazy-load.loaded {
  opacity: 1;
 }
+@media (max-width: 1200px) {
+ .container {
+ width: 90%;
+ }
+}
+
+@media (max-width: 768px) {
+ .row {
+ flex-direction: column;
+ }
+
+ .col {
+ margin-bottom: 20px;
+ }
+}
+
+@media (max-width: 480px) {
+ h1 {
+ font-size: 24px;
+ }
+
+ h2 {
+ font-size: 20px;
+ }
+}
