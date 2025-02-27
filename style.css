@@ -1,0 +1,46 @@
+/* Базовые стили */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #222222;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Стили для кнопок */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для иконок */
+.icon {
+    width: 30px;
+    height: 30px;
+    fill: #007bff;
+    transition: fill 0.3s ease;
+}
+
+.icon:hover {
+    fill: #0056b3;
+}
