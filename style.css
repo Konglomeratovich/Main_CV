@@ -44,3 +44,20 @@ h1, h2, h3 {
 .icon:hover {
     fill: #0056b3;
 }
+/* Оптимизация изображений */
+img {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ margin: 0 auto;
+}
+
+/* Добавляем отложенную загрузку */
+.lazy-load {
+ opacity: 0;
+ transition: opacity 0.3s ease;
+}
+
+.lazy-load.loaded {
+ opacity: 1;
+}
